@@ -10,7 +10,7 @@
 //     --scope complete
 //     --db_namespace Atc
 //     --start_year 2024
-//     --until_year 2050
+//     --until_year 2028
 //     --nocompress
 //
 // using the TZ Database files
@@ -30,25 +30,25 @@
 // Supported Zones: 596 (351 zones, 245 links)
 // Unsupported Zones: 0 (0 zones, 0 links)
 //
-// Requested Years: [2024,2050]
-// Accurate Years: [2024,2050]
+// Requested Years: [2024,2028]
+// Accurate Years: [2024,2028]
 //
 // Original Years:  [1844,2087]
-// Generated Years: [1967,2050]
+// Generated Years: [1967,2028]
 // Lower/Upper Truncated: [True,True]
 //
-// Estimator Years: [1967,2051]
-// Max Buffer Size: 7
+// Estimator Years: [1967,2029]
+// Max Buffer Size: 6
 //
 // Records:
 //   Infos: 596
 //   Eras: 358
 //   Policies: 67
-//   Rules: 226
+//   Rules: 153
 //
 // Memory (8-bits):
 //   Context: 16
-//   Rules: 2712
+//   Rules: 1836
 //   Policies: 201
 //   Eras: 5370
 //   Zones: 4563
@@ -58,11 +58,11 @@
 //   Letters: 35
 //   Fragments: 0
 //   Names: 9076 (original: 9076)
-//   TOTAL: 26860
+//   TOTAL: 25984
 //
 // Memory (32-bits):
 //   Context: 24
-//   Rules: 2712
+//   Rules: 1836
 //   Policies: 536
 //   Eras: 7160
 //   Zones: 8424
@@ -72,7 +72,7 @@
 //   Letters: 49
 //   Fragments: 0
 //   Names: 9076 (original: 9076)
-//   TOTAL: 36755
+//   TOTAL: 35879
 //
 // DO NOT EDIT
 

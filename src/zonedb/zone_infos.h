@@ -10,7 +10,7 @@
 //     --scope complete
 //     --db_namespace Atc
 //     --start_year 2024
-//     --until_year 2050
+//     --until_year 2028
 //     --nocompress
 //
 // using the TZ Database files
@@ -30,25 +30,25 @@
 // Supported Zones: 596 (351 zones, 245 links)
 // Unsupported Zones: 0 (0 zones, 0 links)
 //
-// Requested Years: [2024,2050]
-// Accurate Years: [2024,2050]
+// Requested Years: [2024,2028]
+// Accurate Years: [2024,2028]
 //
 // Original Years:  [1844,2087]
-// Generated Years: [1967,2050]
+// Generated Years: [1967,2028]
 // Lower/Upper Truncated: [True,True]
 //
-// Estimator Years: [1967,2051]
-// Max Buffer Size: 7
+// Estimator Years: [1967,2029]
+// Max Buffer Size: 6
 //
 // Records:
 //   Infos: 596
 //   Eras: 358
 //   Policies: 67
-//   Rules: 226
+//   Rules: 153
 //
 // Memory (8-bits):
 //   Context: 16
-//   Rules: 2712
+//   Rules: 1836
 //   Policies: 201
 //   Eras: 5370
 //   Zones: 4563
@@ -58,11 +58,11 @@
 //   Letters: 35
 //   Fragments: 0
 //   Names: 9076 (original: 9076)
-//   TOTAL: 26860
+//   TOTAL: 25984
 //
 // Memory (32-bits):
 //   Context: 24
-//   Rules: 2712
+//   Rules: 1836
 //   Policies: 536
 //   Eras: 7160
 //   Zones: 8424
@@ -72,7 +72,7 @@
 //   Letters: 49
 //   Fragments: 0
 //   Names: 9076 (original: 9076)
-//   TOTAL: 36755
+//   TOTAL: 35879
 //
 // DO NOT EDIT
 
@@ -1310,16 +1310,16 @@ extern const AtcZoneInfo kAtcZoneZulu; // Zulu -> Etc/UTC
 // over the given years. Used only in the AceTimeValidation/Extended*Test tests
 // for ExtendedZoneProcessor.
 //
-// MaxBufSize: 7
+// MaxBufSize: 6
 //---------------------------------------------------------------------------
 
 #define kAtcZoneBufSizeAfrica_Abidjan 1  /* Africa/Abidjan in 1966 */
 #define kAtcZoneBufSizeAfrica_Algiers 1  /* Africa/Algiers in 1966 */
 #define kAtcZoneBufSizeAfrica_Bissau 1  /* Africa/Bissau in 1966 */
 #define kAtcZoneBufSizeAfrica_Cairo 4  /* Africa/Cairo in 2023 */
-#define kAtcZoneBufSizeAfrica_Casablanca 6  /* Africa/Casablanca in 2028 */
+#define kAtcZoneBufSizeAfrica_Casablanca 5  /* Africa/Casablanca in 2023 */
 #define kAtcZoneBufSizeAfrica_Ceuta 5  /* Africa/Ceuta in 1983 */
-#define kAtcZoneBufSizeAfrica_El_Aaiun 6  /* Africa/El_Aaiun in 2028 */
+#define kAtcZoneBufSizeAfrica_El_Aaiun 5  /* Africa/El_Aaiun in 2023 */
 #define kAtcZoneBufSizeAfrica_Johannesburg 2  /* Africa/Johannesburg in 1966 */
 #define kAtcZoneBufSizeAfrica_Juba 1  /* Africa/Juba in 1966 */
 #define kAtcZoneBufSizeAfrica_Khartoum 1  /* Africa/Khartoum in 1966 */
@@ -1482,8 +1482,8 @@ extern const AtcZoneInfo kAtcZoneZulu; // Zulu -> Etc/UTC
 #define kAtcZoneBufSizeAsia_Dubai 1  /* Asia/Dubai in 1966 */
 #define kAtcZoneBufSizeAsia_Dushanbe 1  /* Asia/Dushanbe in 1966 */
 #define kAtcZoneBufSizeAsia_Famagusta 5  /* Asia/Famagusta in 1981 */
-#define kAtcZoneBufSizeAsia_Gaza 7  /* Asia/Gaza in 2040 */
-#define kAtcZoneBufSizeAsia_Hebron 7  /* Asia/Hebron in 2040 */
+#define kAtcZoneBufSizeAsia_Gaza 5  /* Asia/Gaza in 2028 */
+#define kAtcZoneBufSizeAsia_Hebron 5  /* Asia/Hebron in 2028 */
 #define kAtcZoneBufSizeAsia_Ho_Chi_Minh 1  /* Asia/Ho_Chi_Minh in 1966 */
 #define kAtcZoneBufSizeAsia_Hong_Kong 2  /* Asia/Hong_Kong in 1966 */
 #define kAtcZoneBufSizeAsia_Hovd 2  /* Asia/Hovd in 1966 */

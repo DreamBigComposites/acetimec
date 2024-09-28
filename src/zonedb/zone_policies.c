@@ -10,7 +10,7 @@
 //     --scope complete
 //     --db_namespace Atc
 //     --start_year 2024
-//     --until_year 2050
+//     --until_year 2028
 //     --nocompress
 //
 // using the TZ Database files
@@ -30,25 +30,25 @@
 // Supported Zones: 596 (351 zones, 245 links)
 // Unsupported Zones: 0 (0 zones, 0 links)
 //
-// Requested Years: [2024,2050]
-// Accurate Years: [2024,2050]
+// Requested Years: [2024,2028]
+// Accurate Years: [2024,2028]
 //
 // Original Years:  [1844,2087]
-// Generated Years: [1967,2050]
+// Generated Years: [1967,2028]
 // Lower/Upper Truncated: [True,True]
 //
-// Estimator Years: [1967,2051]
-// Max Buffer Size: 7
+// Estimator Years: [1967,2029]
+// Max Buffer Size: 6
 //
 // Records:
 //   Infos: 596
 //   Eras: 358
 //   Policies: 67
-//   Rules: 226
+//   Rules: 153
 //
 // Memory (8-bits):
 //   Context: 16
-//   Rules: 2712
+//   Rules: 1836
 //   Policies: 201
 //   Eras: 5370
 //   Zones: 4563
@@ -58,11 +58,11 @@
 //   Letters: 35
 //   Fragments: 0
 //   Names: 9076 (original: 9076)
-//   TOTAL: 26860
+//   TOTAL: 25984
 //
 // Memory (32-bits):
 //   Context: 24
-//   Rules: 2712
+//   Rules: 1836
 //   Policies: 536
 //   Eras: 7160
 //   Zones: 8424
@@ -72,7 +72,7 @@
 //   Letters: 49
 //   Fragments: 0
 //   Names: 9076 (original: 9076)
-//   TOTAL: 36755
+//   TOTAL: 35879
 //
 // DO NOT EDIT
 
@@ -80,7 +80,7 @@
 
 //---------------------------------------------------------------------------
 // Policies: 67
-// Rules: 226
+// Rules: 153
 //---------------------------------------------------------------------------
 
 //---------------------------------------------------------------------------
@@ -1803,7 +1803,7 @@ const AtcZonePolicy kAtcZonePolicyMongol  = {
 
 //---------------------------------------------------------------------------
 // Policy name: Morocco
-// Rules: 60
+// Rules: 14
 //---------------------------------------------------------------------------
 
 static const AtcZoneRule kAtcZoneRulesMorocco[]  = {
@@ -1975,564 +1975,12 @@ static const AtcZoneRule kAtcZoneRulesMorocco[]  = {
     0 /*delta_minutes*/,
     0 /*letterIndex ("")*/,
   },
-  // Rule    Morocco    2029    only    -    Jan    14     3:00    -1:00    -
-  {
-    2029 /*from_year*/,
-    2029 /*to_year*/,
-    1 /*in_month*/,
-    0 /*on_day_of_week*/,
-    14 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2029    only    -    Feb    18     2:00    0    -
-  {
-    2029 /*from_year*/,
-    2029 /*to_year*/,
-    2 /*in_month*/,
-    0 /*on_day_of_week*/,
-    18 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2029    only    -    Dec    30     3:00    -1:00    -
-  {
-    2029 /*from_year*/,
-    2029 /*to_year*/,
-    12 /*in_month*/,
-    0 /*on_day_of_week*/,
-    30 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2030    only    -    Feb    10     2:00    0    -
-  {
-    2030 /*from_year*/,
-    2030 /*to_year*/,
-    2 /*in_month*/,
-    0 /*on_day_of_week*/,
-    10 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2030    only    -    Dec    22     3:00    -1:00    -
-  {
-    2030 /*from_year*/,
-    2030 /*to_year*/,
-    12 /*in_month*/,
-    0 /*on_day_of_week*/,
-    22 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2031    only    -    Jan    26     2:00    0    -
-  {
-    2031 /*from_year*/,
-    2031 /*to_year*/,
-    1 /*in_month*/,
-    0 /*on_day_of_week*/,
-    26 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2031    only    -    Dec    14     3:00    -1:00    -
-  {
-    2031 /*from_year*/,
-    2031 /*to_year*/,
-    12 /*in_month*/,
-    0 /*on_day_of_week*/,
-    14 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2032    only    -    Jan    18     2:00    0    -
-  {
-    2032 /*from_year*/,
-    2032 /*to_year*/,
-    1 /*in_month*/,
-    0 /*on_day_of_week*/,
-    18 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2032    only    -    Nov    28     3:00    -1:00    -
-  {
-    2032 /*from_year*/,
-    2032 /*to_year*/,
-    11 /*in_month*/,
-    0 /*on_day_of_week*/,
-    28 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2033    only    -    Jan     9     2:00    0    -
-  {
-    2033 /*from_year*/,
-    2033 /*to_year*/,
-    1 /*in_month*/,
-    0 /*on_day_of_week*/,
-    9 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2033    only    -    Nov    20     3:00    -1:00    -
-  {
-    2033 /*from_year*/,
-    2033 /*to_year*/,
-    11 /*in_month*/,
-    0 /*on_day_of_week*/,
-    20 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2033    only    -    Dec    25     2:00    0    -
-  {
-    2033 /*from_year*/,
-    2033 /*to_year*/,
-    12 /*in_month*/,
-    0 /*on_day_of_week*/,
-    25 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2034    only    -    Nov     5     3:00    -1:00    -
-  {
-    2034 /*from_year*/,
-    2034 /*to_year*/,
-    11 /*in_month*/,
-    0 /*on_day_of_week*/,
-    5 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2034    only    -    Dec    17     2:00    0    -
-  {
-    2034 /*from_year*/,
-    2034 /*to_year*/,
-    12 /*in_month*/,
-    0 /*on_day_of_week*/,
-    17 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2035    only    -    Oct    28     3:00    -1:00    -
-  {
-    2035 /*from_year*/,
-    2035 /*to_year*/,
-    10 /*in_month*/,
-    0 /*on_day_of_week*/,
-    28 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2035    only    -    Dec     9     2:00    0    -
-  {
-    2035 /*from_year*/,
-    2035 /*to_year*/,
-    12 /*in_month*/,
-    0 /*on_day_of_week*/,
-    9 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2036    only    -    Oct    19     3:00    -1:00    -
-  {
-    2036 /*from_year*/,
-    2036 /*to_year*/,
-    10 /*in_month*/,
-    0 /*on_day_of_week*/,
-    19 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2036    only    -    Nov    23     2:00    0    -
-  {
-    2036 /*from_year*/,
-    2036 /*to_year*/,
-    11 /*in_month*/,
-    0 /*on_day_of_week*/,
-    23 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2037    only    -    Oct     4     3:00    -1:00    -
-  {
-    2037 /*from_year*/,
-    2037 /*to_year*/,
-    10 /*in_month*/,
-    0 /*on_day_of_week*/,
-    4 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2037    only    -    Nov    15     2:00    0    -
-  {
-    2037 /*from_year*/,
-    2037 /*to_year*/,
-    11 /*in_month*/,
-    0 /*on_day_of_week*/,
-    15 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2038    only    -    Sep    26     3:00    -1:00    -
-  {
-    2038 /*from_year*/,
-    2038 /*to_year*/,
-    9 /*in_month*/,
-    0 /*on_day_of_week*/,
-    26 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2038    only    -    Oct    31     2:00    0    -
-  {
-    2038 /*from_year*/,
-    2038 /*to_year*/,
-    10 /*in_month*/,
-    0 /*on_day_of_week*/,
-    31 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2039    only    -    Sep    18     3:00    -1:00    -
-  {
-    2039 /*from_year*/,
-    2039 /*to_year*/,
-    9 /*in_month*/,
-    0 /*on_day_of_week*/,
-    18 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2039    only    -    Oct    23     2:00    0    -
-  {
-    2039 /*from_year*/,
-    2039 /*to_year*/,
-    10 /*in_month*/,
-    0 /*on_day_of_week*/,
-    23 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2040    only    -    Sep     2     3:00    -1:00    -
-  {
-    2040 /*from_year*/,
-    2040 /*to_year*/,
-    9 /*in_month*/,
-    0 /*on_day_of_week*/,
-    2 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2040    only    -    Oct    14     2:00    0    -
-  {
-    2040 /*from_year*/,
-    2040 /*to_year*/,
-    10 /*in_month*/,
-    0 /*on_day_of_week*/,
-    14 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2041    only    -    Aug    25     3:00    -1:00    -
-  {
-    2041 /*from_year*/,
-    2041 /*to_year*/,
-    8 /*in_month*/,
-    0 /*on_day_of_week*/,
-    25 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2041    only    -    Sep    29     2:00    0    -
-  {
-    2041 /*from_year*/,
-    2041 /*to_year*/,
-    9 /*in_month*/,
-    0 /*on_day_of_week*/,
-    29 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2042    only    -    Aug    10     3:00    -1:00    -
-  {
-    2042 /*from_year*/,
-    2042 /*to_year*/,
-    8 /*in_month*/,
-    0 /*on_day_of_week*/,
-    10 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2042    only    -    Sep    21     2:00    0    -
-  {
-    2042 /*from_year*/,
-    2042 /*to_year*/,
-    9 /*in_month*/,
-    0 /*on_day_of_week*/,
-    21 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2043    only    -    Aug     2     3:00    -1:00    -
-  {
-    2043 /*from_year*/,
-    2043 /*to_year*/,
-    8 /*in_month*/,
-    0 /*on_day_of_week*/,
-    2 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2043    only    -    Sep    13     2:00    0    -
-  {
-    2043 /*from_year*/,
-    2043 /*to_year*/,
-    9 /*in_month*/,
-    0 /*on_day_of_week*/,
-    13 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2044    only    -    Jul    24     3:00    -1:00    -
-  {
-    2044 /*from_year*/,
-    2044 /*to_year*/,
-    7 /*in_month*/,
-    0 /*on_day_of_week*/,
-    24 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2044    only    -    Aug    28     2:00    0    -
-  {
-    2044 /*from_year*/,
-    2044 /*to_year*/,
-    8 /*in_month*/,
-    0 /*on_day_of_week*/,
-    28 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2045    only    -    Jul     9     3:00    -1:00    -
-  {
-    2045 /*from_year*/,
-    2045 /*to_year*/,
-    7 /*in_month*/,
-    0 /*on_day_of_week*/,
-    9 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2045    only    -    Aug    20     2:00    0    -
-  {
-    2045 /*from_year*/,
-    2045 /*to_year*/,
-    8 /*in_month*/,
-    0 /*on_day_of_week*/,
-    20 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2046    only    -    Jul     1     3:00    -1:00    -
-  {
-    2046 /*from_year*/,
-    2046 /*to_year*/,
-    7 /*in_month*/,
-    0 /*on_day_of_week*/,
-    1 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2046    only    -    Aug     5     2:00    0    -
-  {
-    2046 /*from_year*/,
-    2046 /*to_year*/,
-    8 /*in_month*/,
-    0 /*on_day_of_week*/,
-    5 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2047    only    -    Jun    23     3:00    -1:00    -
-  {
-    2047 /*from_year*/,
-    2047 /*to_year*/,
-    6 /*in_month*/,
-    0 /*on_day_of_week*/,
-    23 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2047    only    -    Jul    28     2:00    0    -
-  {
-    2047 /*from_year*/,
-    2047 /*to_year*/,
-    7 /*in_month*/,
-    0 /*on_day_of_week*/,
-    28 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2048    only    -    Jun     7     3:00    -1:00    -
-  {
-    2048 /*from_year*/,
-    2048 /*to_year*/,
-    6 /*in_month*/,
-    0 /*on_day_of_week*/,
-    7 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2048    only    -    Jul    19     2:00    0    -
-  {
-    2048 /*from_year*/,
-    2048 /*to_year*/,
-    7 /*in_month*/,
-    0 /*on_day_of_week*/,
-    19 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2049    only    -    May    30     3:00    -1:00    -
-  {
-    2049 /*from_year*/,
-    2049 /*to_year*/,
-    5 /*in_month*/,
-    0 /*on_day_of_week*/,
-    30 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2049    only    -    Jul     4     2:00    0    -
-  {
-    2049 /*from_year*/,
-    2049 /*to_year*/,
-    7 /*in_month*/,
-    0 /*on_day_of_week*/,
-    4 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2050    only    -    May    15     3:00    -1:00    -
-  {
-    2050 /*from_year*/,
-    2050 /*to_year*/,
-    5 /*in_month*/,
-    0 /*on_day_of_week*/,
-    15 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    720 /*at_time_code (10800/15)*/,
-    -60 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule    Morocco    2050    only    -    Jun    26     2:00    0    -
-  {
-    2050 /*from_year*/,
-    2050 /*to_year*/,
-    6 /*in_month*/,
-    0 /*on_day_of_week*/,
-    26 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
 
 };
 
 const AtcZonePolicy kAtcZonePolicyMorocco  = {
   kAtcZoneRulesMorocco /*rules*/,
-  60 /*num_rules*/,
+  14 /*num_rules*/,
 };
 
 //---------------------------------------------------------------------------
@@ -2729,7 +2177,7 @@ const AtcZonePolicy kAtcZonePolicyPakistan  = {
 
 //---------------------------------------------------------------------------
 // Policy name: Palestine
-// Rules: 34
+// Rules: 7
 //---------------------------------------------------------------------------
 
 static const AtcZoneRule kAtcZoneRulesPalestine[]  = {
@@ -2817,336 +2265,12 @@ static const AtcZoneRule kAtcZoneRulesPalestine[]  = {
     60 /*delta_minutes*/,
     6 /*letterIndex ("S")*/,
   },
-  // Rule Palestine    2036    only    -    Oct    18    2:00    0    -
-  {
-    2036 /*from_year*/,
-    2036 /*to_year*/,
-    10 /*in_month*/,
-    0 /*on_day_of_week*/,
-    18 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule Palestine    2037    only    -    Oct    10    2:00    0    -
-  {
-    2037 /*from_year*/,
-    2037 /*to_year*/,
-    10 /*in_month*/,
-    0 /*on_day_of_week*/,
-    10 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule Palestine    2038    only    -    Sep    25    2:00    0    -
-  {
-    2038 /*from_year*/,
-    2038 /*to_year*/,
-    9 /*in_month*/,
-    0 /*on_day_of_week*/,
-    25 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule Palestine    2039    only    -    Sep    17    2:00    0    -
-  {
-    2039 /*from_year*/,
-    2039 /*to_year*/,
-    9 /*in_month*/,
-    0 /*on_day_of_week*/,
-    17 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule Palestine    2040    only    -    Sep     1    2:00    0    -
-  {
-    2040 /*from_year*/,
-    2040 /*to_year*/,
-    9 /*in_month*/,
-    0 /*on_day_of_week*/,
-    1 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule Palestine    2040    only    -    Oct    20    2:00    1:00    S
-  {
-    2040 /*from_year*/,
-    2040 /*to_year*/,
-    10 /*in_month*/,
-    0 /*on_day_of_week*/,
-    20 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    60 /*delta_minutes*/,
-    6 /*letterIndex ("S")*/,
-  },
-  // Rule Palestine    2040    2067    -    Oct    Sat<=30    2:00    0    -
-  {
-    2040 /*from_year*/,
-    2067 /*to_year*/,
-    10 /*in_month*/,
-    6 /*on_day_of_week*/,
-    -30 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule Palestine    2041    only    -    Aug    24    2:00    0    -
-  {
-    2041 /*from_year*/,
-    2041 /*to_year*/,
-    8 /*in_month*/,
-    0 /*on_day_of_week*/,
-    24 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule Palestine    2041    only    -    Oct     5    2:00    1:00    S
-  {
-    2041 /*from_year*/,
-    2041 /*to_year*/,
-    10 /*in_month*/,
-    0 /*on_day_of_week*/,
-    5 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    60 /*delta_minutes*/,
-    6 /*letterIndex ("S")*/,
-  },
-  // Rule Palestine    2042    only    -    Aug    16    2:00    0    -
-  {
-    2042 /*from_year*/,
-    2042 /*to_year*/,
-    8 /*in_month*/,
-    0 /*on_day_of_week*/,
-    16 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule Palestine    2042    only    -    Sep    27    2:00    1:00    S
-  {
-    2042 /*from_year*/,
-    2042 /*to_year*/,
-    9 /*in_month*/,
-    0 /*on_day_of_week*/,
-    27 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    60 /*delta_minutes*/,
-    6 /*letterIndex ("S")*/,
-  },
-  // Rule Palestine    2043    only    -    Aug     1    2:00    0    -
-  {
-    2043 /*from_year*/,
-    2043 /*to_year*/,
-    8 /*in_month*/,
-    0 /*on_day_of_week*/,
-    1 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule Palestine    2043    only    -    Sep    19    2:00    1:00    S
-  {
-    2043 /*from_year*/,
-    2043 /*to_year*/,
-    9 /*in_month*/,
-    0 /*on_day_of_week*/,
-    19 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    60 /*delta_minutes*/,
-    6 /*letterIndex ("S")*/,
-  },
-  // Rule Palestine    2044    only    -    Jul    23    2:00    0    -
-  {
-    2044 /*from_year*/,
-    2044 /*to_year*/,
-    7 /*in_month*/,
-    0 /*on_day_of_week*/,
-    23 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule Palestine    2044    only    -    Sep     3    2:00    1:00    S
-  {
-    2044 /*from_year*/,
-    2044 /*to_year*/,
-    9 /*in_month*/,
-    0 /*on_day_of_week*/,
-    3 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    60 /*delta_minutes*/,
-    6 /*letterIndex ("S")*/,
-  },
-  // Rule Palestine    2045    only    -    Jul    15    2:00    0    -
-  {
-    2045 /*from_year*/,
-    2045 /*to_year*/,
-    7 /*in_month*/,
-    0 /*on_day_of_week*/,
-    15 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule Palestine    2045    only    -    Aug    26    2:00    1:00    S
-  {
-    2045 /*from_year*/,
-    2045 /*to_year*/,
-    8 /*in_month*/,
-    0 /*on_day_of_week*/,
-    26 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    60 /*delta_minutes*/,
-    6 /*letterIndex ("S")*/,
-  },
-  // Rule Palestine    2046    only    -    Jun    30    2:00    0    -
-  {
-    2046 /*from_year*/,
-    2046 /*to_year*/,
-    6 /*in_month*/,
-    0 /*on_day_of_week*/,
-    30 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule Palestine    2046    only    -    Aug    18    2:00    1:00    S
-  {
-    2046 /*from_year*/,
-    2046 /*to_year*/,
-    8 /*in_month*/,
-    0 /*on_day_of_week*/,
-    18 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    60 /*delta_minutes*/,
-    6 /*letterIndex ("S")*/,
-  },
-  // Rule Palestine    2047    only    -    Jun    22    2:00    0    -
-  {
-    2047 /*from_year*/,
-    2047 /*to_year*/,
-    6 /*in_month*/,
-    0 /*on_day_of_week*/,
-    22 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule Palestine    2047    only    -    Aug     3    2:00    1:00    S
-  {
-    2047 /*from_year*/,
-    2047 /*to_year*/,
-    8 /*in_month*/,
-    0 /*on_day_of_week*/,
-    3 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    60 /*delta_minutes*/,
-    6 /*letterIndex ("S")*/,
-  },
-  // Rule Palestine    2048    only    -    Jun     6    2:00    0    -
-  {
-    2048 /*from_year*/,
-    2048 /*to_year*/,
-    6 /*in_month*/,
-    0 /*on_day_of_week*/,
-    6 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule Palestine    2048    only    -    Jul    25    2:00    1:00    S
-  {
-    2048 /*from_year*/,
-    2048 /*to_year*/,
-    7 /*in_month*/,
-    0 /*on_day_of_week*/,
-    25 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    60 /*delta_minutes*/,
-    6 /*letterIndex ("S")*/,
-  },
-  // Rule Palestine    2049    only    -    May    29    2:00    0    -
-  {
-    2049 /*from_year*/,
-    2049 /*to_year*/,
-    5 /*in_month*/,
-    0 /*on_day_of_week*/,
-    29 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule Palestine    2049    only    -    Jul    10    2:00    1:00    S
-  {
-    2049 /*from_year*/,
-    2049 /*to_year*/,
-    7 /*in_month*/,
-    0 /*on_day_of_week*/,
-    10 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    60 /*delta_minutes*/,
-    6 /*letterIndex ("S")*/,
-  },
-  // Rule Palestine    2050    only    -    May    21    2:00    0    -
-  {
-    2050 /*from_year*/,
-    2050 /*to_year*/,
-    5 /*in_month*/,
-    0 /*on_day_of_week*/,
-    21 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    0 /*delta_minutes*/,
-    0 /*letterIndex ("")*/,
-  },
-  // Rule Palestine    2050    only    -    Jul     2    2:00    1:00    S
-  {
-    2050 /*from_year*/,
-    2050 /*to_year*/,
-    7 /*in_month*/,
-    0 /*on_day_of_week*/,
-    2 /*on_day_of_month*/,
-    0 /*at_time_modifier (kAtcSuffixW + seconds=0)*/,
-    480 /*at_time_code (7200/15)*/,
-    60 /*delta_minutes*/,
-    6 /*letterIndex ("S")*/,
-  },
 
 };
 
 const AtcZonePolicy kAtcZonePolicyPalestine  = {
   kAtcZoneRulesPalestine /*rules*/,
-  34 /*num_rules*/,
+  7 /*num_rules*/,
 };
 
 //---------------------------------------------------------------------------
